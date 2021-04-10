@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /search
+Disallow: /add
+Disallow: /vote
+Disallow: /skins
+Disallow: /forum
+Disallow: /forum/

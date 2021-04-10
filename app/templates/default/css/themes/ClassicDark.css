@@ -1,0 +1,135 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	margin: 0;
+	padding: 0 0 1em 0;
+	font-family: "Ubuntu", sans;
+	color: #B1B1B1;
+	background-color: #222;
+}
+a {
+	color: #79B94D;
+	text-decoration: none;
+}
+a:hover {
+	color: #99d96d;
+}
+b {
+    font-weight: bold;
+}
+#header {
+	margin: 1em 10% 0 10%;
+	padding: 1%;
+	text-align: center;
+	border: 1px solid #6E6E6E;
+	background-color: #292929;
+}
+#header h1 {
+	margin: 0;
+	padding: 0;
+	font-size: 180%;
+	font-weight: bold;
+}
+#header h1:first-letter {
+	color: #79B94D;
+}
+#menu {
+	padding: .3em;
+	margin: .5em 10%;
+	text-align: center;
+	border: 1px solid #6E6E6E;
+	background-color: #292929;
+}
+#pages, .quinfo {
+	padding: .3em 1em;
+	margin: .5em 10%;
+	text-align: left;
+	border: 1px solid #6E6E6E;
+	background-color: #292929;
+}
+
+.quinfo span {
+	margin-right: 2em;
+}
+.copy {
+	padding: .3em 1em;
+	margin: .5em 10% 0 10%;
+	text-align: left;
+	font-size: 90%;
+	border: 1px solid #6E6E6E;
+	background-color: #292929;
+}
+.copy span {
+	margin-left: 2em;
+}
+.quote, .add, .search {
+	margin: .5em 10%;
+	padding: .3em;
+	border: 1px solid #6E6E6E;
+	background-color: #292929;
+}
+.quothead {
+	padding-bottom: .3em;
+}
+.quothead span {
+	margin-right: 1em;
+}
+.quothead .rate {
+	margin: 0;
+}
+.quotbody, .addbody, .searchbody, .skinbody, .error {
+	padding: .5em;
+	font-family: "Ubuntu Mono", monospace;
+	font-size: .9em; /* TODO: .8 для <= HD, .9 для FullHD<4k, 1 для >=4k  */
+	background-color: #111;
+}
+.addbody {
+	text-align: center;
+	background-color: #111;
+}
+.addbody textarea {
+	color: #B1B1B1;
+	margin-bottom: .5em;
+}
+.addbody textarea, .add input {
+	width: 99%;
+}
+.addbody textarea {
+	font-size: 100%;
+	font-family: "Ubuntu Mono", monospace;
+	border: 1px solid #6E6E6E;
+	background-color: #292929;
+}
+.add input, .search input {
+	font-family: "Ubuntu", sans;
+	color: #B1B1B1;
+	border: 1px solid #6E6E6E;
+	background-color: #292929;
+}
+.inp {
+	width: 80%;
+}
+.topline {
+	position: absolute; z-index: -99;
+	width: 100%;
+	top: 0;
+	height: 2.5em;
+	background-color: #222;
+}
+hr {
+	display: none;
+}
+fieldset {
+	border: 0;
+}
+.skinbody div div {
+	padding: .2em 0;
+}
+.skinbody div img {
+	border: 1px solid #6E6E6E;
+}
+.nq {
+	color: #b9b94d;
+}
